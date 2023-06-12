@@ -12,7 +12,7 @@
     {{-- hhhh --}}
     <!-- Scripts -->
     @vite(['resources/sass/app.scss', 'resources/js/app.js'])
-    <title>8-79i</title>
+    <title>Formation</title>
 
 </head>
 
@@ -22,7 +22,7 @@
             <div class="row">
                 <div class="col-12 d-flex justify-content-between">
                     <h3>
-                        <a class="text-decoration-none text-black-50" href="/stagiaires">8-79i</a>
+                        <a class="text-decoration-none text-black-50" href="/stagiaires">Formation</a>
                     </h3>
 
                     <div class="d-flex">
@@ -67,7 +67,7 @@
                     <li class="col">
                         <a href="{{ route('modules.index') }}" class="text-decoration-none text-dark">Modules</a>
                     </li>
-                    
+
                     <li class="col">
                         <a href="{{ route('examen.index') }}"class="text-decoration-none text-dark">Exames</a>
                     </li>
@@ -75,7 +75,7 @@
                     <li class="col">
                         <a href="{{ route('stgs-notes') }}"class="text-decoration-none text-dark">Notes</a>
                     </li>
-                    
+
                     <li class="col">
                         <a href="{{ route('archieve') }}"class="text-decoration-none text-dark">deleted stagiaires</a>
                     </li>

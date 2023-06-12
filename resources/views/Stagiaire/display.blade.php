@@ -40,20 +40,17 @@
                 <th>nom</th>
                 <th>prenom</th>
                 <th>groupe</th>
+                <th>img</th>
             </tr>
-            @foreach($stagiaires as $stg)
+            @foreach ($stagiaires as $stg)
                 <tr>
                     <td>{{ $stg->nom }}</td>
                     <td>{{ $stg->prenom }}</td>
                     <td>{{ $groupes[strval($stg->groupe_id)] }}</td>
+                    <td><img src="storage/pics/{{ $stg->img }}" alt="" width="40px" height="40px">
+                    </td>
                     <td>
                         <div class="btn-group gap-2">
-
-                            <button class="btn btn-outline-success">
-                                <a href="" class="text-decoration-none text-dark">
-                                    <i class="uil uil-eye"></i>
-                                </a>
-                            </button>
                             <button class="btn btn-outline-info"><a href="{{ route('updateStg', ['id' => $stg->id]) }}"
                                     class="text-decoration-none text-dark"><i class="uil uil-pen"></i></a>
                             </button>
@@ -65,7 +62,6 @@
                     </td>
 
                 </tr>
-
             @endforeach
         </table>
     </div>

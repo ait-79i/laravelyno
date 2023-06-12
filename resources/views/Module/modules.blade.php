@@ -35,6 +35,7 @@
                                     <i class="uil uil-pen"></i>
                                 </a>
                             </button>
+                            
                             <form action="{{ route('modules.destroy', $module) }}" method="post"
                                 onsubmit="return confirm('Are you sure?')">
                                 @csrf

@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     @vite(['resources/sass/app.scss', 'resources/js/app.js'])
-    <title>Laravel</title>
+    <title>Formation</title>
     <style>
         .header {
             background-color: #eee
@@ -86,10 +86,7 @@
                 </div>
                 <div class="col-6  set-bg-img">
                     <img src="syba.jpeg" class="rounded float-left h4" alt="">
-
-
                 </div>
-
             </div>
         </div>
     </div>
